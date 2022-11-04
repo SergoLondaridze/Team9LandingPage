@@ -1,17 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./Sergo.css">
-</head>
 
-<body>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-</body>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./Sergo.css" />
+    <link rel="stylesheet" href="./luka.css" />
+  </head>
 
+  <body>
+    <div id="part3">
+      <div class="plan-container">
+        <h2>Choose Your Plan</h2>
+        <!-- <img
+          src="./luka-images/yellow-paint.png"
+          alt="Yellow-colored underline"
+        /> -->
+        <p>
+          Whether you want to get organized, keep your personal life on track,
+          or boost workplace productivity, Evernote has the right plan for you.
+        </p>
+
+        <!-- Container with 3 price options -->
+        <div class="plan-options-container flex">
+          <!-- Price option #1: Free plan -->
+          <div class="free-plan">
+            <h4>Free</h4>
+            <p class="price">$0</p>
+            <p class="plan-description">Capture ideas and find them quickly</p>
+            <ul>
+              <li>Sync unlimited devices</li>
+              <li>10 GB monthly uploads</li>
+              <li>200 MB max. note size</li>
+              <li>Customize Home dashboard and access extra widgets</li>
+              <li>Connect primary Google Calendar account</li>
+              <li>Add due dates, reminders, and notifications to your tasks</li>
+            </ul>
+            <button class="get-started">Get Started</button>
+          </div>
+
+          <!-- Price option #2: Personal plan -->
+          <div class="personal-plan">
+            <h4>Personal</h4>
+            <p class="price">$11.99</p>
+            <p class="plan-description">Keep home and family on track</p>
+            <ul>
+              <li>Sync unlimited devices</li>
+              <li>10 GB monthly uploads</li>
+              <li>200 MB max. note size</li>
+              <li>Customize Home dashboard and access extra widgets</li>
+              <li>Connect primary Google Calendar account</li>
+              <li>Add due dates, reminders, and notifications to your tasks</li>
+            </ul>
+            <button class="get-started">Get Started</button>
+          </div>
+
+          <!-- Price option #3: Organization plan -->
+          <div class="organization-plan">
+            <h4>Organization</h4>
+            <p class="price">$49.99</p>
+            <p class="plan-description">Capture ideas and find them quickly</p>
+            <ul>
+              <li>Sync unlimited devices</li>
+              <li>10 GB monthly uploads</li>
+              <li>200 MB max. note size</li>
+              <li>Customize Home dashboard and access extra widgets</li>
+              <li>Connect primary Google Calendar account</li>
+              <li>Add due dates, reminders, and notifications to your tasks</li>
+            </ul>
+            <button class="get-started">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blue panel with the Try Taskey CTA Button -->
+      <div class="try-taskey-container">
+        <img src="./luka-images/abstract-rings.png" />
+        <h3>Your work, everywhere you are</h3>
+        <!-- <img src="./luka-images/blue-paint.png" alt="Blue-colored underline" /> -->
+        <p>
+          Access your notes from your computer, phone or tablet by synchronising
+          with various services, including whitepace, Dropbox and OneDrive. The
+          app is available on Windows, macOS, Linux, Android and iOS. A terminal
+          app is also available!
+        </p>
+        <button class="try-taskey-btn">
+          Try Taskey <img src="./luka-images/btn-arrow.png" />
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
