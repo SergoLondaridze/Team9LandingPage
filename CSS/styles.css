@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -9,7 +10,6 @@ background-color: white;
 }
 
 h1 {
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 72px;
     line-height: 87.14px;
@@ -31,7 +31,6 @@ h1 {
 
 }
 .comment1 p {
-    font-family: 'Inter', sans-serif;
     font-weight: 400px;
     font-size: 18px;
     line-height: 30px;
@@ -43,7 +42,6 @@ h1 {
 
 }
 .comment p {
-    font-family: 'Inter', sans-serif;
     font-weight: 400px;
     font-size: 18px;
     line-height: 30px;
@@ -83,7 +81,6 @@ h1 {
 .testimonial1 {
     border-radius: 10px;
     background-color: #FFFFFF;
-    margin-right: 32px;
     filter: drop-shadow(10px 10px 50px rgba(0, 0, 0, 0.08));
     display: flex;
     flex-direction: column;
@@ -138,7 +135,7 @@ h1 {
 .testimonial2 {
     border-radius: 10px;
     background-color: #4F9CF9;
-    margin-right: 32px;
+    
 }
 
 .testimonial3 {
@@ -152,6 +149,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 32px;
 }
 
 .botton-container img {
@@ -186,7 +184,7 @@ h1 {
     border-radius: 50px;
     filter:drop-shadow(0px 4px 50px -15px rgba(0, 0, 0, 0.15));
     background-color: #E6F1FE;
-    margin-left: 50px;
+    
 }
 
 .ellipse2 img {
@@ -204,6 +202,7 @@ h1 {
     align-items: 20px;
     padding-top: 60px;
     padding-bottom: 140px;
+    gap: 50px;
 }
 
 footer {
@@ -216,7 +215,7 @@ footer a, h5 {
 
 footer p {
     color: #FFFFFF;
-    font-weight:700;
+    
 }
 
 .logo img {
@@ -229,11 +228,12 @@ footer p {
 .logo {
     display: flex;
     flex-direction: column;
-    padding-right: 65.25px;
+    
 }
 
 .logo p{
  width: 240px;
+ font-weight: 400px;
 }
 .product {
     display: flex;
@@ -245,7 +245,7 @@ footer p {
     font-weight:700;
     float: left;
     padding-bottom: 15px;
-    font-family: 'Inter', sans-serif;
+
     
 }
 
@@ -264,6 +264,7 @@ footer p {
 .info1 {
     display: flex;
     flex-direction: row;
+    gap: 65.25px;
     
 }
 
@@ -276,7 +277,7 @@ footer p {
     font-weight:700;
     float: left;
     padding-bottom: 15px;
-    font-family: 'Inter', sans-serif;
+    
 }
 .resources tbody td {
     padding-bottom: 15px;
@@ -291,7 +292,7 @@ footer p {
     font-weight:700;
     float: left;
     padding-bottom: 15px;
-    font-family: 'Inter', sans-serif;
+    
 }
 .company tbody td {
     padding-bottom: 15px;
@@ -305,7 +306,6 @@ footer p {
 .try-btn h5 {
     font-weight: 700;
     font-size: 28px;
-    font-family: 'Inter', sans-serif;;
 }
 .try-btn-text p {
     width: 259px;
@@ -318,6 +318,7 @@ footer p {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 140px 150px 80.07px 150px;
+    gap: 100px;
 }
 hr {
     border-top: 1px #2E4E73;
@@ -343,10 +344,7 @@ hr {
     stroke-linecap: round; 
 }
 
-.termsAndConditions {
-    display: flex;
-    flex-direction: row;
-}
+
 .linkdn {
     display: flex;
     flex-direction: row;
@@ -359,13 +357,13 @@ hr {
     margin-left: 220px;
     margin-right: 220px;
     padding-bottom: 32px;
+    gap: 60px;
 }
-.termsConditions a {
-    padding-right: 60px;
-}
+
 .termsConditions {
     display: flex;
     flex-direction: row;
+    gap: 60px;
 }
 
 .socialIcons {
@@ -403,7 +401,7 @@ hr {
     flex-direction: row;
 }
 .button p {
-    font-family: 'Inter', sans-serif;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -420,4 +418,63 @@ hr {
     height: 14px;
     margin-top: 23px;
     
+}
+
+@media (max-width:768px){
+    html {
+        font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+      }
+
+    .botton-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .testimonial1 {
+        margin: auto;
+    }
+    .testimonial3 {
+        margin: auto;
+    }
+   .info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   .footerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   .company {
+    margin-right: 60px;
+   }
+   .termsConditions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   .btm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   .footerBottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   
+
 }
