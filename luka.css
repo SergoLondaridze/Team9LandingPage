@@ -230,6 +230,20 @@ html, body {
     #part3 .personal-plan {
         margin-block: 3rem;
     }
+
+    #part3 h2 {
+        background-position-x: 70%;
+    }
+    
+    #part3 h3 {
+        background-position-x: 93%;
+    }
+}
+
+@media (max-width: 1100px){
+    #part3 h3 {
+        background-image: none;
+    }
 }
 
 @media (max-width: 950px) {
@@ -239,10 +253,16 @@ html, body {
 
     #part3 .try-taskey-container h3 {
         padding-top: 6rem;
+        background-image: url(./luka-images/blue-paint.png);
+        background-position-x: 50%;
     }
 
     #part3 .try-taskey-container p {
         max-width: 90%;
+    }
+
+    #part3 h2 {
+        background-position-x: 79%;
     }
 }
 
@@ -253,6 +273,11 @@ html, body {
 
     #part3 .try-taskey-container img {
         left: -25rem;
+    }
+
+    #part3 h2 {
+        background-position-x: 60%;
+        background-position-y: 90%;
     }
 }
 
